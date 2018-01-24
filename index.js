@@ -86,7 +86,7 @@ var Paper  = function () {
             return this;
         },
 
-        this.movePosotion = function (s) {
+        this.movePosition = function (s) {
             var obj = {
                 name: 'MOVE_POSITION',
                 value: s
