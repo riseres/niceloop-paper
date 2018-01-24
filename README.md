@@ -2,6 +2,10 @@
 
 
 ```js 
+
+//  { "name": "PrintTitle", "value": "Test print title ทดสอบพิมพ์หัวเรื่อง" },
+//  { "name": "Line feed", "value": "The following line will be feed to new line" },
+//  { "name": "LineFeed" },
 //  { "name": "Print line", "value": "Print solid line after this" },
 //  { "name": "PrintLine" },
 //  { "name": "Long value", "value": "Test printing long value for checking word wrapping" },

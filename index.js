@@ -19,7 +19,8 @@ var Paper  = function () {
     this.title = function (s) {
         var obj = {
             name: 'PrintTitle',
-            value: s
+            value: s,
+            
         };
         this.listCommand.push(obj);
 
@@ -85,6 +86,32 @@ var Paper  = function () {
             return this;
         },
 
+        this.movePosotion = function (s) {
+            var obj = {
+                name: 'MOVE_POSITION',
+                value: s
+            };
+            this.listCommand.push(obj);
+            return this;
+        }
+
+        this.setFontSize = function (s) {
+            var obj = {
+                name: 'SET_FONT_SIZE',
+                value: s
+            };
+            this.listCommand.push(obj);
+            return this;
+        }
+
+        this.setFontDefault = function (s) {
+            var obj = {
+                name: 'SET_FONT_DEFAULT',
+                value: s
+            };
+            this.listCommand.push(obj);
+            return this;
+        }
 
         this.endSection = function () {
 
